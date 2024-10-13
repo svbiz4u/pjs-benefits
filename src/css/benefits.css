@@ -1,18 +1,20 @@
 
 /*---STYLES----*/
-.clients-reviews {
-    /* padding-top: 36px; */
-    /* padding-bottom: 36px; */
-    background:#FFFFFF;
+.benefits-rewiews {  /*clients-reviews*/
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* padding-top: 36px; */
+  /* padding-bottom: 36px; */
+  background:#FFFFFF;
 
     /* var(--light-blue, #FFFFFF); */
   }
   
-  .clients-reviews-div {
+  .benefits-reviews-div {
     margin: 0 auto;
   }
   
-  .clients-reviews-title {
+  .benefits-reviews-title {    /*clients-reviews-title*/
     font-size: 52px;
     font-weight: 400;
     line-height: 64px;
@@ -22,34 +24,34 @@
     /* margin-bottom: 30px; */
   }
   
-  .clients-reviews-list {
+  .benefits-reviews-list {  /*clients-reviews-list*/
     display: flex;
     flex-wrap: wrap;
     /* row-gap: 16px; */
-    gap: 16px;  /*нью*/
+    gap: 32px;  /*нью*/
   }
   
-  .clients-reviews-list-item {
+  .benefits-reviews-list-item { /*clients-reviews-list-item*/
     width: 100%;
     padding: 20px 20px;
     /* background-color: #ffffff; */
   }
   
-  .clients-reviews-list-item:not(:nth-child(-n + 1)) {
+  .benefits-reviews-list-item:not(:nth-child(-n + 1)) {
     display: none;
   }
   
-  .clients-reviews-block {
+  .benefits-reviews-block {   /*clients-reviews-block*/
     display: flex;
     align-items: center;
   }
-  .clients-reviews-block-block {
+  .benefits-reviews-block-block {   /*clients-reviews-block-block*/
     display: flex;
     flex-direction: column;
     margin-left: 14px;
   }
   
-  .clients-reviews-item {
+  .benefits-reviews-item {  /*clients-reviews-item */
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
@@ -66,7 +68,7 @@
     opacity: 0.8; 
   } */
   
-  .clients-reviews-item-text {
+  .benefits-reviews-item-text { /*clients-reviews-item-text*/
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -78,47 +80,53 @@
   /*------MEDIA-----*/
   
   @media screen and (min-width: 768px) {
-    .clients-reviews-div {
+    .benefits-reviews-div {    /*clients-reviews-div*/
       max-width: 768px;
-      padding: 0 32px;
+      padding: 0 20px;
     }
   
     /* .clients-reviews {
     } */
   
-    .clients-reviews-title {
-      font-size: 32px;
-      line-height: 45px;
+    .benefits-reviews-title {
+      font-size: 108px;
+      line-height: 124px;
+      font-weight: 400;
+      letter-spacing: 1.8px;
     }
   
-    .clients-reviews-list {
+
+    /*ynetu v HTML*/
+    .benefits-reviews-list {   /*clients-reviews-list*/
       column-gap: 16px;
     }
   
-    .clients-reviews-list-item {
+    .benefits-reviews-list-item {
       width: calc((100% - 16px) / 2);
       padding: 24px;
     }
   
-    .clients-reviews-list-item:not(:nth-child(-n + 1)) {
+    .benefits-reviews-list-item:not(:nth-child(-n + 1)) {
       display: block;
     }
   
-    .clients-reviews-list-item:not(:nth-child(-n + 2)) {
+    .benefits-reviews-list-item:not(:nth-child(-n + 2)) {
       display: none;
     }
   
-    .clients-reviews-item {
+    .benefits-reviews-item {
       font-size: 20px;
       line-height: 45px;
     }
   
-    .clients-reviews-item-time {
+
+    /*netu v html*/
+    /* .clients-reviews-item-time { 
       font-size: 16px;
       line-height: 24px;
-    }
+    } */
   
-    .clients-reviews-item-text {
+    .benefits-reviews-item-text {
       font-size: 18px;
       line-height: 27px;
       text-align: left;
@@ -126,27 +134,27 @@
   }
   
   @media screen and (min-width: 1440px) {
-    .clients-reviews-div {
+    .benefits-reviews-div {
       max-width: 1440px;
       padding: 0 60px;
     }
   
-    .clients-reviews {
+    .benefits-rewiews  { /*clients-reviews*/
       padding-top: 60px;
       padding-bottom: 60px;
     }
   
-    .clients-reviews-list {
+    .benefits-reviews-list {
       row-gap: 24px;
       justify-content: center;
     }
   
-    .clients-reviews-list-item {
+    .benefits-reviews-list-item {
       width: calc((100% - 20px * 2) / 3);
       padding: 32px;
     }
   
-    .clients-reviews-list-item:not(:nth-child(-n + 1)) {
+    .benefits-reviews-list-item:not(:nth-child(-n + 1)) {
       display: block;
     }
   }
